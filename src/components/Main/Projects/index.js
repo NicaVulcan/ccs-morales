@@ -1,6 +1,50 @@
 import React from "react";
 
-function Portfolio () {
+function Projects () {
+    const [featuredProjects] = useState([
+        {
+            title: "",
+            techsUsed: "",
+            deployedUrl: "",
+            githubRepoUrl: "",
+            imagePath: ""
+        },
+        {
+            title: "",
+            techsUsed: "",
+            deployedUrl: "",
+            githubRepoUrl: "",
+            imagePath: ""
+        },
+        {
+            title: "",
+            techsUsed: "",
+            deployedUrl: "",
+            githubRepoUrl: "",
+            imagePath: ""
+        },
+        {
+            title: "",
+            techsUsed: "",
+            deployedUrl: "",
+            githubRepoUrl: "",
+            imagePath: ""
+        },
+        {
+            title: "",
+            techsUsed: "",
+            deployedUrl: "",
+            githubRepoUrl: "",
+            imagePath: ""
+        },
+        {
+            title: "",
+            techsUsed: "",
+            deployedUrl: "",
+            githubRepoUrl: "",
+            imagePath: ""
+        }
+    ])
     return (
         <div>
             <h2>My Projects</h2>
@@ -14,4 +58,4 @@ function Portfolio () {
     )
 };
 
-export default Portfolio;
+export default Projects;
