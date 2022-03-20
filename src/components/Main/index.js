@@ -1,22 +1,21 @@
 import React from "react";
-import About from "../About";
-import Portfolio from "../Portfolio";
-import Contact from "../Contact";
-import Resume from "../Resume";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Resume from "./Resume";
 
+// using 'Main' for this component, instead of 'Project' as suggested by assignment description, because this just made more sense to me
 function Main(props) {
 
     // destructure props
     const { currentDisplay } = props;
 
-    console.log(currentDisplay);
-
-
-    if (currentDisplay === 'About') {
+    // conditionally render each section of portfolio
+    if (currentDisplay === 'About Me') {
         return <About></About>
-    } else if (currentDisplay === 'Portfolio') {
-        return <Portfolio></Portfolio>
-    } else if (currentDisplay === 'Contact') {
+    } else if (currentDisplay === 'My Projects') {
+        return <Projects></Projects>
+    } else if (currentDisplay === 'Contact Me') {
         return <Contact></Contact>
     } else {
         return <Resume></Resume>
