@@ -15,8 +15,6 @@ function App() {
   // set current display based on nav link selection
   const [currentDisplay, setCurrentDisplay] = useState(navLinks[0]);
 
-  console.log(currentDisplay);
-
   return (
     <div>
         {/* passing nav links and current display settings on to header as props */}
