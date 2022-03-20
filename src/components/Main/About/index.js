@@ -4,7 +4,7 @@ function About() {
     return (
         <div>
             <h2>About Me</h2>
-            <img src="./assets/Avatar-CCSM.png" alt="Avatar of Christiana CS Morales" />
+            <img src="./assets/images/Avatar-CCSM.png" alt="Avatar of Christiana CS Morales" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, atque magni animi omnis deserunt voluptas ullam quam dignissimos maxime nam laudantium nobis debitis itaque quia sint sed commodi iusto. Expedita?
                 Laudantium eaque perferendis aliquam natus veritatis laboriosam error. Quam recusandae consectetur optio corporis ratione mollitia atque enim inventore eligendi illo ipsum error totam ab laboriosam voluptatibus, itaque, sapiente quia deserunt!
                 Aliquid rem ipsum soluta dicta expedita? Dolore id nulla eum. Asperiores ducimus ipsum vel enim repudiandae culpa doloremque voluptate quod! Sint amet voluptatibus voluptatem totam ipsa explicabo cupiditate perspiciatis maxime.
