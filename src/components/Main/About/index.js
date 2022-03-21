@@ -6,7 +6,7 @@ function About() {
             <h2>About Me</h2>
             <div>
                 <div>
-                    <img src="/assets/images/Avatar-CCSM.png" alt="Avatar of Christiana CS Morales" />
+                    <img className="avatar" src="/assets/images/Avatar-CCSM.png" alt="Avatar of Christiana CS Morales" />
                 </div>
 
                 <div>

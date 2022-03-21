@@ -31,6 +31,18 @@ a {
     color: var(--accent-color);
     text-decoration: solid 1px var(--accent-color);
 }
+/* main */
+main {
+    margin-bottom: 120px;
+}
+
+/* about */
+.avatar {
+    width: 250px;
+    border-radius: 50%;
+}
+
+/* resume */
 .resume-link {
     padding: 5px 10px;
 }
@@ -39,10 +51,6 @@ a {
     background-color: var(--accent-color);
     padding: 5px 10px;
     border-radius: 5px;
-}
-/* main */
-main {
-    margin-bottom: 120px;
 }
 
 /* footer */
