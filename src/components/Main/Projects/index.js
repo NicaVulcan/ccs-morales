@@ -46,7 +46,7 @@ function Projects() {
                 {featuredProjects.map((project) => (
                     <div className="project-card" key={project.title}>
                         <div>
-                            <img src={`/assets/images/project-screenshots/${project.imagePath}.png`} alt={project.title}></img>
+                            <img className="project-img" src={`/assets/images/project-screenshots/${project.imagePath}.png`} alt={project.title}></img>
                         </div>
                         <h4>{project.title}</h4>
                         <p>{project.techsUsed}</p>

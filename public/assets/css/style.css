@@ -42,6 +42,11 @@ main {
     border-radius: 50%;
 }
 
+/* projects */
+.project-img {
+    width: 500px;
+}
+
 /* resume */
 .resume-link {
     padding: 5px 10px;
