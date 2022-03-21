@@ -47,13 +47,30 @@ main {
 
 /* footer */
 footer {
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
-    height: 100px;
+    height: 60px;
     width: 100%;
     overflow: hidden;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+footer p {
+    margin: 5px 15px;
+    padding: auto;
+    width: 50%;
 }
 .footer-links {
     list-style: none;
+    display: flex;
+    margin: 0;
+    width: 50%;
+    align-content: flex-start;
+}
+.footer-icons {
+    height: 40px;
+    margin: 3px 10px;
 }

@@ -26,12 +26,14 @@ function Footer() {
     ]);
     return (
         <footer>
+            <p>C.C.S. Morales · © 2022</p>
             <ul className="footer-links">
                 {footerLinks.map((link) => (
                     <li className="footer-link" key={link.siteName}>
                         <a href={link.url}>
                             <img 
                                 alt={link.alt} 
+                                className="footer-icons"
                                 src={link.defaultSrc}
                                 // change img source on hover to change color
                                 onMouseEnter={(e) => {
