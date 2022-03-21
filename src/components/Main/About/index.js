@@ -4,13 +4,31 @@ function About() {
     return (
         <div>
             <h2>About Me</h2>
-            <img src="./assets/images/Avatar-CCSM.png" alt="Avatar of Christiana CS Morales" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, atque magni animi omnis deserunt voluptas ullam quam dignissimos maxime nam laudantium nobis debitis itaque quia sint sed commodi iusto. Expedita?
-                Laudantium eaque perferendis aliquam natus veritatis laboriosam error. Quam recusandae consectetur optio corporis ratione mollitia atque enim inventore eligendi illo ipsum error totam ab laboriosam voluptatibus, itaque, sapiente quia deserunt!
-                Aliquid rem ipsum soluta dicta expedita? Dolore id nulla eum. Asperiores ducimus ipsum vel enim repudiandae culpa doloremque voluptate quod! Sint amet voluptatibus voluptatem totam ipsa explicabo cupiditate perspiciatis maxime.
-                Placeat esse magni similique quaerat? Laboriosam obcaecati est minima dolorum nobis repellendus accusantium unde doloremque eius id vero voluptatibus, doloribus voluptatum vitae, quasi veritatis eaque tempora quas fugiat ea labore.
-                Voluptatem, dolor aliquam eligendi voluptate odit, quos officia aut fuga hic dicta praesentium ipsam atque numquam amet eaque. Magni sit magnam non in id ipsam omnis quia, facilis adipisci recusandae!
-            </p>
+            <div>
+                <div>
+                    <img src="/assets/images/Avatar-CCSM.png" alt="Avatar of Christiana CS Morales" />
+                </div>
+
+                <div>
+                    <h3>Who I Am </h3>
+                    <p>
+                        While born in Coral Gables, FL, my heart is split down the middle between Nicaragua, where my parents are from, and where I spent most of my childhood, and Charlotte, NC, where I finished growing up, where I found the love of my life, and where I’ve called home for the last 15 years.
+                        I am a science and math nerd, with an artistic side, and an insatiable thirst for new knowledge and skills. I love taking on new challenges, especially if they require thinking outside the box, and problem solving.
+                    </p>
+
+                    <h3>Why Programming?</h3>
+                    <p>
+                        I found my love for programming while attempting to expand my artistic skillset into the world of web design. Very early into that journey I found that creating the logic behind a website was just as exciting as designing it, if not more.
+                        I believe that programming is the flawless merging of creativity and logic, and luckily for me, those are two of my favorite things!
+                    </p>
+
+                    <h3>What I Like</h3>
+                    <p>
+                        When I am not programming, I am usually spending time with my husband, daughter, and numerous pets, reading, playing games of any kind, drawing, learning new crafts, or roller skating - or attempting to, rather.
+                        While not usually the talkative type, you’d have a hard time keeping me quiet if the topic ever turned to biology, zoology, psychology, productivity hacks, and serial killers.
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }
