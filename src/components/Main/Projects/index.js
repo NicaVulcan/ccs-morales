@@ -43,7 +43,7 @@ function Projects() {
         <div>
             <h2>My Projects</h2>
             <div>
-                {featuredProjects.map((project, i) => (
+                {featuredProjects.map((project) => (
                     <div className="project-card" key={project.title}>
                         <div>
                             <img src={`/assets/images/project-screenshots/${project.imagePath}.png`} alt={project.title}></img>

@@ -12,13 +12,13 @@ function Main(props) {
 
     // conditionally render each section of portfolio
     if (currentDisplay === 'About Me') {
-        return <About></About>
+        return <main><About></About></main>
     } else if (currentDisplay === 'My Projects') {
-        return <Projects></Projects>
+        return <main><Projects></Projects></main>
     } else if (currentDisplay === 'Contact Me') {
-        return <Contact></Contact>
+        return <main><Contact></Contact></main>
     } else {
-        return <Resume></Resume>
+        return <main><Resume></Resume></main>
     }
 }
 

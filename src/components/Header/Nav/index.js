@@ -2,29 +2,28 @@ import React from "react";
 
 function Nav(props) {
 
-        // destructure props
-        const {
-            navLinks = [],
-            currentDisplay,
-            setCurrentDisplay
-        } = props;
+    // destructure props
+    const {
+        navLinks = [],
+        currentDisplay,
+        setCurrentDisplay
+    } = props;
 
     return (
         <nav>
-            <ul>
+            <ul className="nav-links">
                 {/* create a list item per nav link */}
                 {navLinks.map((navLink) => (
-                    <li 
-                        // active link is highlighted
-                        className={`${currentDisplay === navLink && 'active-link'}`}
-                        key={navLink}
-                    >
+                    <li key={navLink}>
                         <span
-                            // on click, set current nav link to the one clicked
+                            // when nav link is clicked, it is set as 'active link'
                             onClick={() => {
                                 setCurrentDisplay(navLink);
                             }}
-                        >{navLink}</span>
+                            // active link is highlighted
+                            className={`${currentDisplay === navLink && 'active-link'} nav-link`}>
+                            {navLink}
+                        </span>
                     </li>
                 ))}
             </ul>

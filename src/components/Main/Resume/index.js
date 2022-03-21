@@ -15,7 +15,7 @@ function Resume () {
                 <li>skill</li>
                 <li>skill</li>
             </ul>
-            <h3><a href="./assets/documents/sample.pdf">Download My Resume</a></h3>
+            <h3><a href="/assets/documents/sample.pdf" className="resume-link">Download My Resume</a></h3>
         </div>
     )
 };
