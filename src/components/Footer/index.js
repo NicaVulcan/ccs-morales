@@ -26,7 +26,7 @@ function Footer() {
     ]);
     return (
         <footer>
-            <p>C.C.S. Morales · © 2022</p>
+            <p>C.C.S. Morales · © 2022f</p>
             <ul className="footer-links">
                 {footerLinks.map((link) => (
                     <li className="footer-link" key={link.siteName}>

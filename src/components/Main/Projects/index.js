@@ -42,7 +42,7 @@ function Projects() {
     return (
         <div>
             <h2>My Projects</h2>
-            <div>
+            <div className="projects">
                 {featuredProjects.map((project) => (
                     <div className="project-card" key={project.title}>
                         <div className="card-img">
