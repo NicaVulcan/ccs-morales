@@ -39,7 +39,7 @@ function Footer() {
             <ul className="footer-links">
                 {footerLinks.map((link) => (
                     <li className="footer-link" key={link.siteName}>
-                        <a href={link.url}>
+                        <a href={link.url} target="_blank" rel="noreferrer">
                             <img 
                                 alt={link.alt} 
                                 className="footer-icons"
