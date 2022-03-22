@@ -49,7 +49,7 @@ function Projects() {
                             <img className="project-img" src={`/assets/images/project-screenshots/${project.imagePath}.png`} alt={project.title}></img>
                         </div>
                         <div className="card-title">
-                            <p className="project-title">{project.title}</p>
+                            <h3 className="project-title">{project.title}</h3>
                             <p className="project-links">
                                 <a className="project-link" href={project.ghRepoUrl}><img className="project-link-icon" src="/assets/icons/project-link/repo-link.png" alt="GitHub icon"/></a>
                                 <a className="project-link" href={project.deployedUrl}><img className="project-link-icon" src="/assets/icons/project-link/app-link.png" alt="Website icon"/></a>
