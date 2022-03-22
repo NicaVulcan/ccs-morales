@@ -1,4 +1,11 @@
 import React, { useState } from "react";
+import ghGray from "../../assets/icons/footer-icons/gh-gray.png"
+import ghTeal from "../../assets/icons/footer-icons/gh-teal.png"
+import liGray from "../../assets/icons/footer-icons/li-gray.png"
+import liTeal from "../../assets/icons/footer-icons/li-teal.png"
+import soGray from "../../assets/icons/footer-icons/so-gray.png"
+import soTeal from "../../assets/icons/footer-icons/so-teal.png"
+
 
 function Footer() {
     const [footerLinks] = useState([
@@ -6,24 +13,26 @@ function Footer() {
             siteName: "github",
             url: "https://github.com/NicaVulcan",
             alt: "GitHub icon",
-            defaultSrc: "/assets/icons/footer-icons/gh-gray.png",
-            hoverSrc: "/assets/icons/footer-icons/gh-teal.png",
+            defaultSrc: ghGray,
+            hoverSrc: ghTeal,
         },
         {
             siteName: "linked-in",
             url: "https://www.linkedin.com/in/csullivanmorales/",
             alt: "LinkedIn icon",
-            defaultSrc: "/assets/icons/footer-icons/li-gray.png",
-            hoverSrc: "/assets/icons/footer-icons/li-teal.png"
+            defaultSrc: liGray,
+            hoverSrc: liTeal
         },
         {
             siteName: "stack-overflow",
             url: "https://stackoverflow.com/users/16744333/csullym",
             alt: "Stack Overflow icon",
-            defaultSrc: "/assets/icons/footer-icons/so-gray.png",
-            hoverSrc: "/assets/icons/footer-icons/so-teal.png"
+            defaultSrc: soGray,
+            hoverSrc: soTeal
         }
     ]);
+
+
     return (
         <footer>
             <p>C.C.S. Morales · © 2022</p>

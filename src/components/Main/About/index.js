@@ -1,4 +1,5 @@
 import React from "react";
+import avatarPhoto from "../../../assets/images/Avatar-CCSM.png"
 
 function About() {
     return (
@@ -6,7 +7,7 @@ function About() {
             <h2>About Me</h2>
             <div className="about-content">
                 <div className="about-img">
-                    <img className="avatar" src="/assets/images/Avatar-CCSM.png" alt="Avatar of Christiana CS Morales" />
+                    <img className="avatar" src={avatarPhoto} alt="Avatar of Christiana CS Morales" />
                 </div>
 
                 <div className="about-bio">
