@@ -16,7 +16,7 @@ function Contact () {
 
     // use emailjs to send email
     const sendEmail = () => {
-        // TODO use .env to hide ids
+        // TODO use .env to hide ids?
         emailjs.sendForm('service_d26dc06', 'template_6z4wf8u', form.current, 'ltpzhMJUSQ39yAQTh')
         .then((result) => {
             console.log(result.text);
@@ -40,14 +40,14 @@ function Contact () {
         if(e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
-                setErrorMessage('Please enter a valid e-mail address.');
+                setErrorMessage('**Please enter a valid e-mail address.');
             } else {
                 setErrorMessage('');
             }
         // if name or message are not entered, send error message
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`Please enter a ${e.target.name}.`);
+                setErrorMessage(`**Please enter a ${e.target.name}.`);
             } else {
                 setErrorMessage('');
             }
@@ -75,12 +75,12 @@ function Contact () {
                     <label htmlFor="message">Message:</label>
                     <textarea id="message" name="message" rows="3" defaultValue={message} onBlur={handleChange}></textarea>
                 </div>
+                <button className="submit-btn" type="submit">Send Message!</button>
                 {errorMessage && (
-                    <div>
+                    <div className="error-msg">
                         <p>{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Send Message!</button>
             </form>
         </div>
     )

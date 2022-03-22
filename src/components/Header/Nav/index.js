@@ -14,7 +14,7 @@ function Nav(props) {
             <ul className="nav-links">
                 {/* create a list item per nav link */}
                 {navLinks.map((navLink) => (
-                    <li key={navLink}>
+                    <li key={navLink} className="nav-item">
                         <span
                             // when nav link is clicked, it is set as 'active link'
                             onClick={() => {

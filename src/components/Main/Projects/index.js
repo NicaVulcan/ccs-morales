@@ -45,15 +45,16 @@ function Projects() {
             <div>
                 {featuredProjects.map((project) => (
                     <div className="project-card" key={project.title}>
-                        <div>
+                        <div className="card-img">
                             <img className="project-img" src={`/assets/images/project-screenshots/${project.imagePath}.png`} alt={project.title}></img>
                         </div>
-                        <h4>{project.title}</h4>
-                        <p>{project.techsUsed}</p>
-                        <p>
-                            <a href={project.ghRepoUrl}>GitHub Repo</a>
-                            <a href={project.deployedUrl}>Visit App</a>
-                        </p>
+                        <div className="card-title">
+                            <p className="project-title">{project.title}</p>
+                            <p className="project-links">
+                                <a className="project-link" href={project.ghRepoUrl}><img className="project-link-icon" src="/assets/icons/project-link/repo-link.png" alt="GitHub icon"/></a>
+                                <a className="project-link" href={project.deployedUrl}><img className="project-link-icon" src="/assets/icons/project-link/app-link.png" alt="Website icon"/></a>
+                            </p>
+                        </div>
                     </div>
                 ))}
             </div>
