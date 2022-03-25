@@ -31,7 +31,9 @@ function Resume() {
                     </ul>
                 </div>
             </div>
-            <h3 className="resume"><a href={resume} download="ccs-morales_resume" className="resume-link">Download My Resume</a></h3>
+            <h3 className="resume">
+                <a href={resume} download="ccs-morales_resume" className="resume-link">Download My Resume</a>
+            </h3>
 
         </div>
     )
