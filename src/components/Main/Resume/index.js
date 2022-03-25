@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../../assets/documents/sample.pdf"
+import resume from "../../../assets/documents/CCS-Morales_Resume.pdf"
 
 function Resume() {
     return (
@@ -19,6 +19,7 @@ function Resume() {
                         <li>React.js</li>
                         <li>MySQL</li>
                         <li>MongoDB</li>
+                        <li>GraphQL</li>
                     </ul>
                 </div>
                 <div className="tools">
