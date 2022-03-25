@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ccs-morales/static/css/main.031fa3aa.css",
-    "main.js": "/ccs-morales/static/js/main.75c7dd30.js",
+    "main.css": "/ccs-morales/static/css/main.6cade1df.css",
+    "main.js": "/ccs-morales/static/js/main.5c3d0acb.js",
     "static/js/787.4616991c.chunk.js": "/ccs-morales/static/js/787.4616991c.chunk.js",
     "static/media/sheet-show.png": "/ccs-morales/static/media/sheet-show.18ec162190b53cec618b.png",
     "static/media/weather-dashboard.png": "/ccs-morales/static/media/weather-dashboard.b363997597c99bd6ea28.png",
@@ -9,6 +9,7 @@
     "static/media/poke-dinner.png": "/ccs-morales/static/media/poke-dinner.e5bc32470eb35a8f6e3d.png",
     "static/media/tech-blog.png": "/ccs-morales/static/media/tech-blog.ff13934af53e0a64c8e2.png",
     "static/media/Avatar-CCSM.png": "/ccs-morales/static/media/Avatar-CCSM.5937a359be9a29cc530f.png",
+    "static/media/CCS-Morales_Resume.pdf": "/ccs-morales/static/media/CCS-Morales_Resume.626f08c18cd7a38e9682.pdf",
     "static/media/note-taker.png": "/ccs-morales/static/media/note-taker.65f44528c0565d7a0fe2.png",
     "static/media/gh-teal.png": "/ccs-morales/static/media/gh-teal.466d2e781811db6048f7.png",
     "static/media/gh-gray.png": "/ccs-morales/static/media/gh-gray.10d015f00b5a25c6cb4f.png",
@@ -17,14 +18,13 @@
     "static/media/li-teal.png": "/ccs-morales/static/media/li-teal.60316fd676a54700ee10.png",
     "static/media/li-gray.png": "/ccs-morales/static/media/li-gray.6b4ef3d819e3bb1203de.png",
     "static/media/app-link.png": "/ccs-morales/static/media/app-link.37795d6b5cb74b511b81.png",
-    "static/media/sample.pdf": "/ccs-morales/static/media/sample.5c0e332c42999cff6330.pdf",
     "index.html": "/ccs-morales/index.html",
-    "main.031fa3aa.css.map": "/ccs-morales/static/css/main.031fa3aa.css.map",
-    "main.75c7dd30.js.map": "/ccs-morales/static/js/main.75c7dd30.js.map",
+    "main.6cade1df.css.map": "/ccs-morales/static/css/main.6cade1df.css.map",
+    "main.5c3d0acb.js.map": "/ccs-morales/static/js/main.5c3d0acb.js.map",
     "787.4616991c.chunk.js.map": "/ccs-morales/static/js/787.4616991c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.031fa3aa.css",
-    "static/js/main.75c7dd30.js"
+    "static/css/main.6cade1df.css",
+    "static/js/main.5c3d0acb.js"
   ]
 }
