@@ -196,13 +196,14 @@ h2 {
 .resume-link {
     padding: 5px 10px;
     margin: auto;
+    border: #40bdb8 1.5px solid;
+    border-radius: 5px;
 }
 
 .resume-link:hover {
     color: white;
     background-color: var(--accent-color);
     padding: 5px 10px;
-    border-radius: 5px;
 }
 
 .resume-link:active {
@@ -373,6 +374,10 @@ footer p {
     }
     #contact-form {
         width: 60%;
+    }
+    .proficiencies {
+        width: 70%;
+        margin: auto;
     }
     footer {
         width: 100%;
