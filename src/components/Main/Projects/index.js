@@ -3,6 +3,12 @@ import React, { useState } from "react";
 function Projects() {
     const [featuredProjects] = useState([
         {
+            title: "Calendari",
+            deployedUrl: "https://calendari-day.herokuapp.com",
+            ghRepoUrl: "https://github.com/ErikPlachta/Calendari",
+            imagePath: "calendari"
+        },
+        {
             title: "The Sheet Show",
             deployedUrl: "https://sheet-show.herokuapp.com/",
             ghRepoUrl: "https://github.com/NicaVulcan/The-Sheet-Show",
