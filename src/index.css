@@ -49,6 +49,7 @@ h1 {
     color: var(--accent-color);
     text-decoration: solid 1px var(--accent-color);
 }
+
 /* main */
 #root {
     width: 100%;
@@ -126,6 +127,39 @@ h2 {
 }
 
 /* contact */
+#msg-sent-modal-bg {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin: auto;
+}
+#msg-sent-modal {
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+}
+#msg-sent-modal p {
+    text-align: center;
+}
+#modal-exit {
+    color: var(--accent-color);
+    background-color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1.5px solid var(--accent-color);
+    border-radius: 5px;
+}
+#modal-exit:hover {
+    color: white;
+    background-color: var(--accent-color);
+}
 #contact-form {
     display: flex;
     flex-direction: column;
