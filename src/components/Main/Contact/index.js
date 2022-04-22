@@ -3,20 +3,20 @@ import validateEmail from "../../../utils/helpers";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
-    
+
     // select modal
-    const modal = document.querySelector('#msg-sent-modal-bg');
-    
+    const modal = document.querySelector('#modal-bg');
+
     // set values for form input fields
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
-    
+
     // set error messages
     const [errorMessage, setErrorMessage] = useState('');
-    
+
     // set 'form' as reference to form, to send email through emailjs
     const form = useRef();
-    
+
     // use emailjs to send email
     const sendEmail = () => {
         // TODO use .env to hide ids?
@@ -32,6 +32,7 @@ function Contact() {
     // exit from 'message sent' modal
     const exitModal = (e) => {
         modal.style.display = 'none';
+        setFormState({ name: "", email: "", message: "" });
     }
 
     // if no errors, upon submit, log value of input fields
@@ -71,24 +72,32 @@ function Contact() {
     return (
         <div>
             <h2>Contact Me</h2>
-            <div id="msg-sent-modal-bg">
-                <div id="msg-sent-modal">
-                    <p>Your message has been sent!</p>
-                    <button id="modal-exit" onClick={exitModal}>OK!</button>
+            <div id="modal-bg">
+                <div id="modal-container">
+                    <div id="msg-sent-modal">
+                        <p>Your message has been sent!</p>
+                        <button id="modal-exit" onClick={exitModal}>OK!</button>
+                    </div>
                 </div>
             </div>
             <form id="contact-form" ref={form} onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" name="name" defaultValue={name} onBlur={handleChange} required></input>
+                    <div key={name}>
+                        <input type="text" id="name" name="name" defaultValue={name} onBlur={handleChange} required></input>
+                    </div>
                 </div>
                 <div>
                     <label htmlFor="email">Email Address:</label>
-                    <input type="email" id="email" name="email" defaultValue={email} onBlur={handleChange} required></input>
+                    <div key={email}>
+                        <input type="email" id="email" name="email" defaultValue={email} onBlur={handleChange} required></input>
+                    </div>
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
-                    <textarea id="message" name="message" rows="3" defaultValue={message} onBlur={handleChange} required></textarea>
+                    <div key={message}>
+                        <textarea id="message" name="message" rows="3" defaultValue={message} onBlur={handleChange} required></textarea>
+                    </div>
                 </div>
                 <button className="submit-btn" type="submit">Send Message!</button>
                 {errorMessage && (
