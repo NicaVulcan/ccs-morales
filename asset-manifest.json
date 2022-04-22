@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ccs-morales/static/css/main.6cade1df.css",
-    "main.js": "/ccs-morales/static/js/main.029d4173.js",
+    "main.css": "/ccs-morales/static/css/main.f2ca52cb.css",
+    "main.js": "/ccs-morales/static/js/main.78d69911.js",
     "static/js/787.4616991c.chunk.js": "/ccs-morales/static/js/787.4616991c.chunk.js",
     "static/media/sheet-show.png": "/ccs-morales/static/media/sheet-show.18ec162190b53cec618b.png",
     "static/media/weather-dashboard.png": "/ccs-morales/static/media/weather-dashboard.b363997597c99bd6ea28.png",
@@ -20,12 +20,12 @@
     "static/media/li-gray.png": "/ccs-morales/static/media/li-gray.6b4ef3d819e3bb1203de.png",
     "static/media/app-link.png": "/ccs-morales/static/media/app-link.37795d6b5cb74b511b81.png",
     "index.html": "/ccs-morales/index.html",
-    "main.6cade1df.css.map": "/ccs-morales/static/css/main.6cade1df.css.map",
-    "main.029d4173.js.map": "/ccs-morales/static/js/main.029d4173.js.map",
+    "main.f2ca52cb.css.map": "/ccs-morales/static/css/main.f2ca52cb.css.map",
+    "main.78d69911.js.map": "/ccs-morales/static/js/main.78d69911.js.map",
     "787.4616991c.chunk.js.map": "/ccs-morales/static/js/787.4616991c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cade1df.css",
-    "static/js/main.029d4173.js"
+    "static/css/main.f2ca52cb.css",
+    "static/js/main.78d69911.js"
   ]
 }
