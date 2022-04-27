@@ -35,33 +35,17 @@ function Projects() {
             techs: ''
         },
         {
-            title: "Poke-Dinner",
-            deployedUrl: "https://vinssm.github.io/PokeDinner/index.html",
-            ghRepoUrl: "https://github.com/NicaVulcan/PokeDinner",
-            imagePath: "poke-dinner",
-            description: '',
-            techs: ''
-        },
-        {
-            title: "Note Taker",
-            deployedUrl: "https://frozen-crag-25746.herokuapp.com/",
-            ghRepoUrl: "https://github.com/NicaVulcan/note-taker",
-            imagePath: "note-taker",
-            description: '',
-            techs: ''
-        },
-        {
-            title: "Weather Dashboard",
-            deployedUrl: "https://nicavulcan.github.io/weather-dashboard/",
-            ghRepoUrl: "https://github.com/NicaVulcan/weather-dashboard",
-            imagePath: "weather-dashboard",
-            description: '',
-            techs: ''
-        },
-        {
             title: "Social Network API",
             deployedUrl: "",
             ghRepoUrl: "https://github.com/NicaVulcan/social-network-api",
+            imagePath: "",
+            description: '',
+            techs: ''
+        },
+        {
+            title: "e-Commerce API",
+            deployedUrl: "",
+            ghRepoUrl: "https://github.com/NicaVulcan/e-commerce-back-end",
             imagePath: "",
             description: '',
             techs: ''
@@ -75,10 +59,10 @@ function Projects() {
             techs: ''
         },
         {
-            title: "e-Commerce API",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/e-commerce-back-end",
-            imagePath: "",
+            title: "Note Taker",
+            deployedUrl: "https://frozen-crag-25746.herokuapp.com/",
+            ghRepoUrl: "https://github.com/NicaVulcan/note-taker",
+            imagePath: "note-taker",
             description: '',
             techs: ''
         },
@@ -95,6 +79,22 @@ function Projects() {
             deployedUrl: "",
             ghRepoUrl: "https://github.com/NicaVulcan/readme-generator",
             imagePath: "",
+            description: '',
+            techs: ''
+        },
+        {
+            title: "Poke-Dinner",
+            deployedUrl: "https://vinssm.github.io/PokeDinner/index.html",
+            ghRepoUrl: "https://github.com/NicaVulcan/PokeDinner",
+            imagePath: "poke-dinner",
+            description: '',
+            techs: ''
+        },
+        {
+            title: "Weather Dashboard",
+            deployedUrl: "https://nicavulcan.github.io/weather-dashboard/",
+            ghRepoUrl: "https://github.com/NicaVulcan/weather-dashboard",
+            imagePath: "weather-dashboard",
             description: '',
             techs: ''
         },
