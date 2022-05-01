@@ -87,8 +87,8 @@ function Projects() {
             deployedUrl: "https://vinssm.github.io/PokeDinner/index.html",
             ghRepoUrl: "https://github.com/NicaVulcan/PokeDinner",
             imagePath: "poke-dinner",
-            description: '',
-            techs: ''
+            description: "Front end web application using server side APIs",
+            techs: ["HTML", "CSS", "NES CSS", "JavaScript", "PokéAPI", "Spoonacular Recipe Search API"]
         },
         {
             title: "Weather Dashboard",
@@ -138,6 +138,16 @@ function Projects() {
                                     </a>
                                 }
                             </p>
+                            {project.description &&
+                                <p>{project.description}</p>
+                            }
+                            {project.techs &&
+                                <ul>
+                                    {project.techs.map((tech) => (
+                                        <li key={tech}>{tech}</li>
+                                    ))}
+                                </ul>
+                            }
                         </div>
                     </div>
                 ))}
