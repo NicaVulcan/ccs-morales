@@ -7,7 +7,7 @@ function Projects() {
             deployedUrl: "https://calendari-day.herokuapp.com",
             ghRepoUrl: "https://github.com/ErikPlachta/Calendari",
             imagePath: "calendari",
-            description: "Full Stack scheduling web application",
+            description: "Calendari is a full-stack, React application. It is a scheduling application that allows for small businesses to create an account, which provides them with a unique url that clients can use to schedule appointments based on the business' availability.",
             techs: ["React", "CSS", "Node", "Express", "MongoDB", "Mongoose", "GraphQL", "Apollo", "Apollo Playground", "MongoDB Atlas", "Heroku"]
         },
         {
@@ -15,7 +15,7 @@ function Projects() {
             deployedUrl: "https://sheet-show.herokuapp.com/",
             ghRepoUrl: "https://github.com/NicaVulcan/The-Sheet-Show",
             imagePath: "sheet-show",
-            description: "Full Stack DnD Character Sheet Creator web application",
+            description: "The Sheet Show is a full stack application that allows a user to automatically generate a Dungeons and Dragons character sheet based on user preferences of 'Class' and 'Race'. This application randomizes character stats based on the chosen Class and Race parameters.",
             techs: ["Handlebars", "CSS", "Bootstrap", "Character Sheet CSS", "JavaScript", "DnD5e API", "Node", "Express", "Express Session", "Dotenv", "Bcrypt", "MySQL", "Sequelize", "Insomnia", "JawsDB", "Heroku"]
         },
         {
@@ -23,7 +23,7 @@ function Projects() {
             deployedUrl: "https://safe-crag-64410.herokuapp.com/",
             ghRepoUrl: "https://github.com/NicaVulcan/budget-tracker",
             imagePath: "budget-tracker",
-            description: "Full Stack Progressive Web Application",
+            description: "Budget tracker is a full-stack, progressive web application meant to help the user keep track of daily transactions. This application is downloadable, and can operate offline by saving offline transactions to the IndexedDB, and posting these transactions once the device regains connectivity.",
             techs: ["HTML", "CSS", "Bootstrap", "JavaScript", "IndexedDB", "Service Workers", "Node", "Express", "MongoDB", "Mongoose", "Insomnia", "MongoDB Atlas", "Heroku"]
         },
         {
@@ -31,89 +31,9 @@ function Projects() {
             deployedUrl: "https://safe-dusk-00550.herokuapp.com/",
             ghRepoUrl: "https://github.com/NicaVulcan/tech-blog",
             imagePath: "tech-blog",
-            description: "Full Stack blog application",
+            description: "Tech Blog is a full-stack application. It is a concept for a blog application that allows users to create an account, or login if an account has previously been created. If logged in, a user can create new posts, update or delete their posts, and comment on other user's posts.",
             techs: ["Handlebars", "CSS", "JavaScript", "Node", "Express", "Express Session", "Dotenv", "Bcrypt", "MySQL", "Sequelize", "Insomnia", "JawsDB", "Heroku"]
-        },
-        {
-            title: "Social Network API",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/social-network-api",
-            imagePath: "",
-            description: "RESTful API for a social networking application",
-            techs: ["Node", "Express", "MongoDB", "Mongoose", "Insomnia"]
-        },
-        {
-            title: "e-Commerce API",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/e-commerce-back-end",
-            imagePath: "",
-            description: "RESTful API for e-commerce website",
-            techs: ["Node", "Express", "Dotenv", "MySQL", "Sequelize", "Insomnia"]
-        },
-        {
-            title: "Employee Tracker",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/employee-tracker",
-            imagePath: "",
-            description: "CLI Application for keeping track of employee database",
-            techs: ["JavaScript", "Node", "Inquirer", "MySQL"]
-        },
-        {
-            title: "Note Taker",
-            deployedUrl: "https://frozen-crag-25746.herokuapp.com/",
-            ghRepoUrl: "https://github.com/NicaVulcan/note-taker",
-            imagePath: "note-taker",
-            description: "Note taking application",
-            techs: ["HTML", "CSS", "Bootstrap", "FontAwesome", "JavaScript", "Node", "Express"]
-        },
-        {
-            title: "Team Profile Generator",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/team-profile-generator",
-            imagePath: "",
-            description: "CLI application for generating an HTML file for displaying team profile",
-            techs: ["HTML", "CSS", "Node", "Inquirer", "Jest"]
-        },
-        {
-            title: "README Generator",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/readme-generator",
-            imagePath: "",
-            description: "CLI application for creating professional README files",
-            techs: ["Markdown", "Node", "Inquirer", "Shield.io"]
-        },
-        {
-            title: "Poke-Dinner",
-            deployedUrl: "https://vinssm.github.io/PokeDinner/index.html",
-            ghRepoUrl: "https://github.com/NicaVulcan/PokeDinner",
-            imagePath: "poke-dinner",
-            description: "Front end web application using server side APIs",
-            techs: ["HTML", "CSS", "NES CSS", "JavaScript", "PokéAPI", "Spoonacular Recipe Search API", "Local Storage"]
-        },
-        {
-            title: "Weather Dashboard",
-            deployedUrl: "https://nicavulcan.github.io/weather-dashboard/",
-            ghRepoUrl: "https://github.com/NicaVulcan/weather-dashboard",
-            imagePath: "weather-dashboard",
-            description: "Front-end weather forecasting web application",
-            techs: ["HTML", "CSS", "Spectre CSS", "JavaScript", "JQuery", "Open Weather One Call API", "Local Storage"]
-        },
-        {
-            title: "Day Scheduler",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/work-day-scheduler",
-            imagePath: "",
-            description: "Front-end web application for planning work day",
-            techs: ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery", "Moment.js", "Local Storage"]
-        },
-        {
-            title: "JavaScript Quiz",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/",
-            imagePath: "",
-            description: "Front-end timed quiz on JavaScript concepts",
-            techs: ["HTML", "CSS", "JavaScript", "Local Storage"]
-        },
+        }
     ])
     return (
         <div>
