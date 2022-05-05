@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ProjectCard from "./ProjectCard";
 
 function Projects() {
     const [featuredProjects] = useState([
@@ -34,114 +35,86 @@ function Projects() {
             description: "Tech Blog is a concept for a blog application that allows users to create an account, or login if an account has previously been created. If logged in, a user can create new posts, update or delete their posts, and comment on other user's posts.",
             techs: ["Handlebars", "CSS", "JavaScript", "Node", "Express", "Express Session", "Dotenv", "Bcrypt", "MySQL", "Sequelize", "Insomnia", "JawsDB", "Heroku"]
         },
-        {
-            title: "Social Network API",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/social-network-api",
-            imagePath: "",
-            description: "This is a RESTful API for a concept social network application. The API routes allow for creating, reading, updating, and deleting users and 'thoughts', as well as creating and deleting 'reactions' to 'thoughts', and adding or removing 'friends' to/from a user's friends list.",
-            techs: ["Node", "Express", "MongoDB", "Mongoose", "Insomnia"]
-        },
-        {
-            title: "e-Commerce API",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/e-commerce-back-end",
-            imagePath: "",
-            description: "This is a RESTful API for a concept eCommerce website. The API routes allow for creating, reading, updating, and deleting new products, product tags, and product categories.",
-            techs: ["Node", "Express", "Dotenv", "MySQL", "Sequelize", "Insomnia"]
-        },
-        {
-            title: "Employee Tracker",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/employee-tracker",
-            imagePath: "",
-            description: "Employee Tracker is a CLI application designed for keeping track of an employee database. It allows the user to view formatted data for all departments, roles, and employees, as well as create new data for each of these categories.",
-            techs: ["JavaScript", "Node", "Inquirer", "MySQL"]
-        },
-        {
-            title: "Note Taker",
-            deployedUrl: "https://frozen-crag-25746.herokuapp.com/",
-            ghRepoUrl: "https://github.com/NicaVulcan/note-taker",
-            imagePath: "note-taker",
-            description: "Note Taker is a full-stack application that uses a local database. This application allows the user to create, read, update, or delete notes.",
-            techs: ["HTML", "CSS", "Bootstrap", "FontAwesome", "JavaScript", "Node", "Express", "JSON"]
-        },
-        {
-            title: "Team Profile Generator",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/team-profile-generator",
-            imagePath: "",
-            description: "Team Profile Generator is a CLI application that prompts the user for information on team members to generate an HTML file that displays a team profile.",
-            techs: ["HTML", "CSS", "Node", "Inquirer", "Jest"]
-        },
-        {
-            title: "README Generator",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/readme-generator",
-            imagePath: "",
-            description: "README Generator is a CLI application that prompts the user for information on a project in order to create a professional README.md file.",
-            techs: ["Markdown", "Node", "Inquirer", "Shield.io"]
-        },
-        {
-            title: "Poké-Dinner",
-            deployedUrl: "https://vinssm.github.io/PokeDinner/index.html",
-            ghRepoUrl: "https://github.com/NicaVulcan/PokeDinner",
-            imagePath: "poke-dinner",
-            description: "Poké-Dinner is a front-end web application application that demonstrates the interactive use of server side APIs by having the user submit the name of a Pokemon, using PokéAPI to retrieve info on that Pokémon, using that Pokémon's weight to calculate an appropriate caloric intake per meal, and finding recipes that meet that criteria using Spoonacular API.",
-            techs: ["HTML", "CSS", "NES CSS", "JavaScript", "PokéAPI", "Spoonacular Recipe Search API", "Local Storage"]
-        },
-        {
-            title: "Weather Dashboard",
-            deployedUrl: "https://nicavulcan.github.io/weather-dashboard/",
-            ghRepoUrl: "https://github.com/NicaVulcan/weather-dashboard",
-            imagePath: "weather-dashboard",
-            description: "Weather Dashboard is a front-end web application that demonstrates the use of server side APIs by allowing the user to search for a city name, and using Open Weather API to generate that city's current weather information, as well as the forecast for the following 5 days.",
-            techs: ["HTML", "CSS", "Spectre CSS", "JavaScript", "JQuery", "Open Weather One Call API", "Local Storage"]
-        },
-        {
-            title: "Day Scheduler",
-            deployedUrl: "",
-            ghRepoUrl: "https://github.com/NicaVulcan/work-day-scheduler",
-            imagePath: "",
-            description: "Day Scheduler is a front-end application that uses Local Storage to allow the user to create, read, update, or delete events from a daily hourly planner.",
-            techs: ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery", "Moment.js", "Local Storage"]
-        },
+        // {
+        //     title: "Social Network API",
+        //     deployedUrl: "",
+        //     ghRepoUrl: "https://github.com/NicaVulcan/social-network-api",
+        //     imagePath: "",
+        //     description: "This is a RESTful API for a concept social network application. The API routes allow for creating, reading, updating, and deleting users and 'thoughts', as well as creating and deleting 'reactions' to 'thoughts', and adding or removing 'friends' to/from a user's friends list.",
+        //     techs: ["Node", "Express", "MongoDB", "Mongoose", "Insomnia"]
+        // },
+        // {
+        //     title: "e-Commerce API",
+        //     deployedUrl: "",
+        //     ghRepoUrl: "https://github.com/NicaVulcan/e-commerce-back-end",
+        //     imagePath: "",
+        //     description: "This is a RESTful API for a concept eCommerce website. The API routes allow for creating, reading, updating, and deleting new products, product tags, and product categories.",
+        //     techs: ["Node", "Express", "Dotenv", "MySQL", "Sequelize", "Insomnia"]
+        // },
+        // {
+        //     title: "Employee Tracker",
+        //     deployedUrl: "",
+        //     ghRepoUrl: "https://github.com/NicaVulcan/employee-tracker",
+        //     imagePath: "",
+        //     description: "Employee Tracker is a CLI application designed for keeping track of an employee database. It allows the user to view formatted data for all departments, roles, and employees, as well as create new data for each of these categories.",
+        //     techs: ["JavaScript", "Node", "Inquirer", "MySQL"]
+        // },
+        // {
+        //     title: "Note Taker",
+        //     deployedUrl: "https://frozen-crag-25746.herokuapp.com/",
+        //     ghRepoUrl: "https://github.com/NicaVulcan/note-taker",
+        //     imagePath: "note-taker",
+        //     description: "Note Taker is a full-stack application that uses a local database. This application allows the user to create, read, update, or delete notes.",
+        //     techs: ["HTML", "CSS", "Bootstrap", "FontAwesome", "JavaScript", "Node", "Express", "JSON"]
+        // },
+        // {
+        //     title: "Team Profile Generator",
+        //     deployedUrl: "",
+        //     ghRepoUrl: "https://github.com/NicaVulcan/team-profile-generator",
+        //     imagePath: "",
+        //     description: "Team Profile Generator is a CLI application that prompts the user for information on team members to generate an HTML file that displays a team profile.",
+        //     techs: ["HTML", "CSS", "Node", "Inquirer", "Jest"]
+        // },
+        // {
+        //     title: "README Generator",
+        //     deployedUrl: "",
+        //     ghRepoUrl: "https://github.com/NicaVulcan/readme-generator",
+        //     imagePath: "",
+        //     description: "README Generator is a CLI application that prompts the user for information on a project in order to create a professional README.md file.",
+        //     techs: ["Markdown", "Node", "Inquirer", "Shield.io"]
+        // },
+        // {
+        //     title: "Poké-Dinner",
+        //     deployedUrl: "https://vinssm.github.io/PokeDinner/index.html",
+        //     ghRepoUrl: "https://github.com/NicaVulcan/PokeDinner",
+        //     imagePath: "poke-dinner",
+        //     description: "Poké-Dinner is a front-end web application application that demonstrates the interactive use of server side APIs by having the user submit the name of a Pokemon, using PokéAPI to retrieve info on that Pokémon, using that Pokémon's weight to calculate an appropriate caloric intake per meal, and finding recipes that meet that criteria using Spoonacular API.",
+        //     techs: ["HTML", "CSS", "NES CSS", "JavaScript", "PokéAPI", "Spoonacular Recipe Search API", "Local Storage"]
+        // },
+        // {
+        //     title: "Weather Dashboard",
+        //     deployedUrl: "https://nicavulcan.github.io/weather-dashboard/",
+        //     ghRepoUrl: "https://github.com/NicaVulcan/weather-dashboard",
+        //     imagePath: "weather-dashboard",
+        //     description: "Weather Dashboard is a front-end web application that demonstrates the use of server side APIs by allowing the user to search for a city name, and using Open Weather API to generate that city's current weather information, as well as the forecast for the following 5 days.",
+        //     techs: ["HTML", "CSS", "Spectre CSS", "JavaScript", "JQuery", "Open Weather One Call API", "Local Storage"]
+        // },
+        // {
+        //     title: "Day Scheduler",
+        //     deployedUrl: "",
+        //     ghRepoUrl: "https://github.com/NicaVulcan/work-day-scheduler",
+        //     imagePath: "",
+        //     description: "Day Scheduler is a front-end application that uses Local Storage to allow the user to create, read, update, or delete events from a daily hourly planner.",
+        //     techs: ["HTML", "CSS", "Bootstrap", "JavaScript", "JQuery", "Moment.js", "Local Storage"]
+        // },
     ])
+
     return (
         <div>
             <h2>My Projects</h2>
             <div className="projects">
                 {featuredProjects.map((project) => (
-                    <div className="project-card" key={project.title}>
-                        {project.imagePath &&
-                            <div className="card-img">
-                                <img className="project-img" src={require(`../../../assets/images/project-screenshots/${project.imagePath}.png`)} alt={project.title}></img>
-                            </div>
-                        }
-                        <div className="card-title">
-                            <h3 className="project-title">{project.title}</h3>
-                            <p className="project-links">
-                                <a className="project-link" href={project.ghRepoUrl} target="_blank" rel="noreferrer">
-                                    <img className="project-link-icon" src={require("../../../assets/icons/project-link/repo-link.png")} alt="GitHub icon" />
-                                </a>
-                                {project.deployedUrl &&
-                                    <a className="project-link" href={project.deployedUrl} target="_blank" rel="noreferrer">
-                                        <img className="project-link-icon" src={require("../../../assets/icons/project-link/app-link.png")} alt="Website icon" />
-                                    </a>
-                                }
-                            </p>
-                            {project.description &&
-                                <p>{project.description}</p>
-                            }
-                            {project.techs &&
-                                <ul>
-                                    {project.techs.map((tech) => (
-                                        <li key={tech}>{tech}</li>
-                                    ))}
-                                </ul>
-                            }
-                        </div>
-                    </div>
+                    <ProjectCard {...project} key={`${project.imagePath}-card`}/>
                 ))}
             </div>
         </div>

@@ -96,6 +96,8 @@ h2 {
 .project-card {
     border-bottom: var(--primary-color) solid 1px;
     margin-bottom: 50px;
+    padding-bottom: 50px;
+    cursor: pointer;
 }
 .project-card:last-of-type {
     border-bottom: none;
@@ -114,7 +116,7 @@ h2 {
     margin: 10px 0;
     width: 75%;
 }
-.project-links {
+.project-alt-view {
     width: 25%;
 }
 .project-link-icon {
