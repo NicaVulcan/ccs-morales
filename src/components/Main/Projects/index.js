@@ -11,14 +11,14 @@ function Projects() {
             description: "Calendari is a full-stack, concept scheduling application that allows for small businesses to create an account, which provides them with a unique url that clients can use to schedule appointments based on the business' availability.",
             techs: ["React", "CSS", "Node", "Express", "MongoDB", "Mongoose", "GraphQL", "Apollo", "Apollo Playground", "MongoDB Atlas", "Heroku"]
         },
-        {
-            title: "The Sheet Show",
-            deployedUrl: "https://sheet-show.herokuapp.com/",
-            ghRepoUrl: "https://github.com/NicaVulcan/The-Sheet-Show",
-            imagePath: "sheet-show",
-            description: "The Sheet Show is a full stack application that allows a user to automatically generate a Dungeons and Dragons character sheet based on user preferences of 'Class' and 'Race'. This application randomizes character stats based on the chosen Class and Race parameters.",
-            techs: ["Handlebars", "CSS", "Bootstrap", "Character Sheet CSS", "JavaScript", "DnD5e API", "Node", "Express", "Express Session", "Dotenv", "Bcrypt", "MySQL", "Sequelize", "Insomnia", "JawsDB", "Heroku"]
-        },
+        // {
+        //     title: "The Sheet Show",
+        //     deployedUrl: "https://sheet-show.herokuapp.com/",
+        //     ghRepoUrl: "https://github.com/NicaVulcan/The-Sheet-Show",
+        //     imagePath: "sheet-show",
+        //     description: "The Sheet Show is a full stack application that allows a user to automatically generate a Dungeons and Dragons character sheet based on user preferences of 'Class' and 'Race'. This application randomizes character stats based on the chosen Class and Race parameters.",
+        //     techs: ["Handlebars", "CSS", "Bootstrap", "Character Sheet CSS", "JavaScript", "DnD5e API", "Node", "Express", "Express Session", "Dotenv", "Bcrypt", "MySQL", "Sequelize", "Insomnia", "JawsDB", "Heroku"]
+        // },
         {
             title: "Budget Tracker",
             deployedUrl: "https://safe-crag-64410.herokuapp.com/",
@@ -32,7 +32,7 @@ function Projects() {
             deployedUrl: "https://safe-dusk-00550.herokuapp.com/",
             ghRepoUrl: "https://github.com/NicaVulcan/tech-blog",
             imagePath: "tech-blog",
-            description: "Tech Blog is a concept for a blog application that allows users to create an account, or login if an account has previously been created. If logged in, a user can create new posts, update or delete their posts, and comment on other user's posts.",
+            description: "Tech Blog is a concept blog application that allows users to create an account, or login if an account has previously been created. If logged in, a user can visit their personal dashboard, create new posts, update or delete their posts, and comment on other user's posts.",
             techs: ["Handlebars", "CSS", "JavaScript", "Node", "Express", "Express Session", "Dotenv", "Bcrypt", "MySQL", "Sequelize", "Insomnia", "JawsDB", "Heroku"]
         },
         // {
