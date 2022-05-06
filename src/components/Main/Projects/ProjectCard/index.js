@@ -11,13 +11,13 @@ const ProjectCard = ({ ...project }) => {
     }
 
     return (
-        <div className="project-card" onClick={toggleDetailsView}>
+        <div className="project-card">
             <div className="img-container">
                 <div className="card-img">
                     <img className="project-img" src={require(`../../../../assets/images/project-screenshots/${project.imagePath}.png`)} alt={project.title}></img>
                 </div>
             </div>
-            <div className="card-title">
+            <div className="card-title"  onClick={toggleDetailsView}>
                 <h3 className="project-title">
                     {project.title}
                     {detailsView
@@ -32,8 +32,8 @@ const ProjectCard = ({ ...project }) => {
                         <h4>Project Description:</h4>
                         <p>{project.description}</p>
                         {project.deployedUrl
-                            ? <p>Check out the deployed application <a href={project.deployedUrl}>here</a>, or visit the GitHub repository <a href={project.ghRepoUrl}>here</a>.</p>
-                            : <p>Visit the GitHub repository <a href={project.ghRepoUrl}>here</a>.</p>
+                            ? <p>Check out the deployed application <a href={project.deployedUrl} target="_blank" rel="noreferrer">here</a>, or visit the GitHub repository <a href={project.ghRepoUrl} target="_blank" rel="noreferrer">here</a>.</p>
+                            : <p>Visit the GitHub repository <a href={project.ghRepoUrl} target="_blank" rel="noreferrer">here</a>.</p>
                         }
                         <h4>Techs used:</h4>
                         <ul>
