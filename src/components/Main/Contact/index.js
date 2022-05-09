@@ -19,8 +19,7 @@ function Contact() {
 
     // use emailjs to send email
     const sendEmail = () => {
-        // TODO use .env to hide ids?
-        emailjs.sendForm('service_d26dc06', 'template_6z4wf8u', form.current, 'ltpzhMJUSQ39yAQTh')
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
             .then((result) => {
                 modal.style.display = 'block';
                 console.log(result.text);
@@ -33,6 +32,7 @@ function Contact() {
     const exitModal = (e) => {
         modal.style.display = 'none';
         setFormState({ name: "", email: "", message: "" });
+        console.log(e)
     }
 
     // if no errors, upon submit, log value of input fields
