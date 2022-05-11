@@ -75,21 +75,29 @@ h2 {
     flex-direction: column;
     align-content: center;
 }
-
 .about-img {
     margin: auto;
     display: flex;
+    flex-direction: column;
     align-content: center;
 }
-
 .about-bio {
     margin-bottom: 50px;
 }
-
 .avatar {
     width: 100%;
     border-radius: 50%;
     margin: auto;
+}
+.bio-contact {
+    margin: 15px auto;
+    list-style: none;
+    padding: 0;
+}
+.contact-icons {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
 }
 
 /* projects */
@@ -199,6 +207,7 @@ h2 {
 
 .submit-btn:hover {
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .submit-btn:active {
@@ -285,6 +294,9 @@ footer p {
     .about-bio p {
         font-size: 20px;
     }
+    .contact-icons {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 575px) {
@@ -370,13 +382,16 @@ footer p {
         flex-direction: row;
     }
     .about-img {
-        width: 30%;
+        width: 35%;
         padding: 10px;
     }
     .about-bio {
-        width: 70%;
+        width: 65%;
         padding: 0 30px 0 30px;
         margin: auto;
+    }
+    .contact-icons {
+        font-size: 15px;
     }
     .avatar {
         width: 100%;

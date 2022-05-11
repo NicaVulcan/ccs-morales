@@ -1,5 +1,6 @@
 import React from "react";
 import avatarPhoto from "../../../assets/images/Avatar-CCSM.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 function About() {
     return (
@@ -8,6 +9,10 @@ function About() {
             <div className="about-content">
                 <div className="about-img">
                     <img className="avatar" src={avatarPhoto} alt="Avatar of Christiana CS Morales" />
+                    <ul className="bio-contact">
+                        <li className="contact-icons"><FontAwesomeIcon icon='fa-solid fa-envelope' /> c.c.sullivanmorales@gmail.com</li>
+                        <li className="contact-icons"><FontAwesomeIcon icon='fa-solid fa-mobile' /> (252) 373-2329</li>
+                    </ul>
                 </div>
 
                 <div className="about-bio">
