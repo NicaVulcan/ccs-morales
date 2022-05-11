@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.2512a651.css",
-    "main.js": "/static/js/main.9969cb69.js",
+    "main.js": "/static/js/main.f5a57f8f.js",
     "static/js/787.4616991c.chunk.js": "/static/js/787.4616991c.chunk.js",
-    "static/media/sheet-show.png": "/static/media/sheet-show.ed713aa30b2031858415.png",
-    "static/media/Avatar-CCSM.png": "/static/media/Avatar-CCSM.f8c939ed4556ac4f08c4.png",
-    "static/media/employee-tracker.png": "/static/media/employee-tracker.ad71dd09756622f69a25.png",
-    "static/media/team-profile-generator.png": "/static/media/team-profile-generator.958d4996497e8c0b1603.png",
-    "static/media/social-network-api.png": "/static/media/social-network-api.72b0bf54afdcc2c140ba.png",
-    "static/media/calendari.png": "/static/media/calendari.d4f0a452a4f1bb3c9352.png",
-    "static/media/e-commerce-api.png": "/static/media/e-commerce-api.7b7260c14925ded6d6d4.png",
-    "static/media/budget-tracker.png": "/static/media/budget-tracker.6a88332e95e3f96f2ead.png",
-    "static/media/tech-blog.png": "/static/media/tech-blog.50f39e6e068fd8673668.png",
+    "static/media/sheet-show.png": "/static/media/sheet-show.ce62627129a07684b75a.png",
+    "static/media/Avatar-CCSM.png": "/static/media/Avatar-CCSM.14aa5173c396ebabe8a5.png",
     "static/media/CCS-Morales_Resume.pdf": "/static/media/CCS-Morales_Resume.68615fe6928a57caa8a3.pdf",
-    "static/media/note-taker.png": "/static/media/note-taker.d88b0f3aafd1a53c4ff1.png",
+    "static/media/employee-tracker.png": "/static/media/employee-tracker.cb3e4f02d2c1c7dc93a6.png",
+    "static/media/team-profile-generator.png": "/static/media/team-profile-generator.ebc4a598c7b2930c0db9.png",
+    "static/media/social-network-api.png": "/static/media/social-network-api.1d979f5546686675a04f.png",
+    "static/media/calendari.png": "/static/media/calendari.dfe7e3722ab325af9096.png",
+    "static/media/budget-tracker.png": "/static/media/budget-tracker.67301985d6db1b8ea80a.png",
+    "static/media/e-commerce-api.png": "/static/media/e-commerce-api.9995981a549cb88740de.png",
+    "static/media/tech-blog.png": "/static/media/tech-blog.14db5a5c59db2dcc4b0c.png",
+    "static/media/note-taker.png": "/static/media/note-taker.7b04873f22b9c2d5bcdb.png",
     "static/media/gh-teal.png": "/static/media/gh-teal.466d2e781811db6048f7.png",
     "static/media/gh-gray.png": "/static/media/gh-gray.10d015f00b5a25c6cb4f.png",
     "static/media/so-teal.png": "/static/media/so-teal.b10bea168d559286ad04.png",
@@ -22,11 +22,11 @@
     "static/media/li-gray.png": "/static/media/li-gray.6b4ef3d819e3bb1203de.png",
     "index.html": "/index.html",
     "main.2512a651.css.map": "/static/css/main.2512a651.css.map",
-    "main.9969cb69.js.map": "/static/js/main.9969cb69.js.map",
+    "main.f5a57f8f.js.map": "/static/js/main.f5a57f8f.js.map",
     "787.4616991c.chunk.js.map": "/static/js/787.4616991c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2512a651.css",
-    "static/js/main.9969cb69.js"
+    "static/js/main.f5a57f8f.js"
   ]
 }
