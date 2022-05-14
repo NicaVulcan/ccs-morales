@@ -8,7 +8,7 @@ function Projects() {
             deployedUrl: "https://calendari-day.herokuapp.com",
             ghRepoUrl: "https://github.com/ErikPlachta/Calendari",
             imagePath: "calendari",
-            description: "Calendari is a full-stack, concept scheduling application that allows for small businesses to create an account, which provides them with a unique url that clients can use to schedule appointments based on the business' availability.",
+            description: "Calendari is a full-stack, concept scheduling application that allows small businesses to create an account, and provides them with a unique url that clients can use to schedule appointments based on the business' availability.",
             techs: ["React", "CSS", "Node", "Express", "MongoDB", "Mongoose", "GraphQL", "Apollo", "Apollo Playground", "MongoDB Atlas", "Heroku"]
         },
         // {
@@ -32,7 +32,7 @@ function Projects() {
             deployedUrl: "https://safe-dusk-00550.herokuapp.com/",
             ghRepoUrl: "https://github.com/NicaVulcan/tech-blog",
             imagePath: "tech-blog",
-            description: "Tech Blog is a concept blog application that allows users to create an account, or login if an account has previously been created. If logged in, a user can visit their personal dashboard, create new posts, update or delete their posts, and comment on other user's posts.",
+            description: "Tech Blog is a concept blog application that allows users to create an account, or login if an account has previously been created. When logged in, a user can visit their personal dashboard, create new posts, update or delete their posts, and comment on other user's posts.",
             techs: ["Handlebars", "CSS", "JavaScript", "Node", "Express", "Express Session", "Dotenv", "Bcrypt", "MySQL", "Sequelize", "Insomnia", "JawsDB", "Heroku"]
         },
         {
